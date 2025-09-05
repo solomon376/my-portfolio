@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Copyright */}
         <p className="text-muted-foreground text-sm text-center md:text-left">
-          © {new Date().getFullYear()}  Eze K. Solomon. Made with React.
+          © {new Date().getFullYear()}  Solomon Eze. Made with React.
         </p>
 
         {/* Social Links */}

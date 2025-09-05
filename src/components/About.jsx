@@ -4,21 +4,26 @@ import { motion } from "framer-motion";
 
 const About = () => {
   const timeline = [
-    {
-      year: "2023",
-      title: "Started My Journey",
-      desc: "Began learning web development and building small projects to strengthen fundamentals.",
-    },
-    {
-      year: "2024",
-      title: "Frontend Developer Path",
-      desc: "Focused on React, TailwindCSS, and modern tooling (Vite). Built my first portfolio and real-world apps.",
-    },
-    {
-      year: "2025",
-      title: "Expanding Horizons",
-      desc: "Exploring animations, UI/UX design principles, and contributing to open source projects.",
-    },
+   {
+  year: "2022",
+  title: "The Beginning",
+  desc: "Started my journey in web development. Built my first simple website with little knowledge, laying the foundation for growth.",
+},
+{
+  year: "2023",
+  title: "Building Fundamentals",
+  desc: "Improved my skills by creating small projects, practicing HTML, CSS, and JavaScript, and gaining confidence as a developer.",
+},
+{
+  year: "2024",
+  title: "Frontend Developer Path",
+  desc: "Focused on React, TailwindCSS, and modern tooling (Vite). Built my first full portfolio and started working on real-world apps.",
+},
+{
+  year: "2025",
+  title: "Expanding Horizons",
+  desc: "Learning Java (with JavaFX), gaining knowledge of C++, and exploring databases like MySQL and MongoDB — all while pursuing my B.Sc.",
+},
   ];
 
   return (
@@ -26,9 +31,9 @@ const About = () => {
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">About Me</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          I’m a passionate <span className="font-semibold">Frontend Developer</span> 
+          I’m a passionate <span className="font-semibold">Frontend Developer </span> 
           who loves creating beautiful, user-friendly web applications. With a strong 
-          foundation in modern frameworks and a constant drive to learn, I build 
+          foundation in modern frameworks and a constant drive to learn, <br />I build 
           interfaces that balance design and performance.
         </p>
       </div>
@@ -43,11 +48,11 @@ const About = () => {
           <Card className="shadow-lg">
             <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
               <img
-                src="/profile.jpg"
+                src="/profile.png"
                 alt="Profile"
-                className="w-32 h-32 rounded-full object-cover border-4 border-primary"
+                className="w-42 h-42 rounded-full object-cover object-top border-4 border-primary"
               />
-              <h3 className="text-2xl font-semibold">Your Name</h3>
+              <h3 className="text-2xl font-semibold">Solomon Eze</h3>
               <p className="text-muted-foreground">
                 Turning ideas into responsive and engaging digital experiences.
               </p>

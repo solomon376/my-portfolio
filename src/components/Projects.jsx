@@ -8,9 +8,9 @@ const projects = [
     title: "Portfolio Website",
     category: "Web",
     description: "A modern responsive portfolio built with React, TailwindCSS, and Vite.",
-    image: "https://via.placeholder.com/600x400?text=Portfolio+Project",
-    demo: "#",
-    code: "#",
+    image: "/images/portfolio.jpg",
+    demo: "https://jenkison.netlify.app/",
+    code: "https://github.com/solomon376/Jenkison-Sea-Life",
   },
   {
     title: "E-commerce Store",

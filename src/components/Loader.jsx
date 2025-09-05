@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function Loader() {
   const [text, setText] = useState("");
-  const word = "<Welcome/>";
+  const word = "<Welcome />";
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
